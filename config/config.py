@@ -19,11 +19,14 @@ from pyrogram import filters
 load_dotenv()
 
 API_ID = int(getenv("API_ID", "10561476"))
-API_HASH = getenv("API_HASH""1753f9169bd7854e98629836b2b469f4")
+API_HASH = getenv("API_HASH" "1753f9169bd7854e98629836b2b469f4")
 
-BOT_TOKEN = getenv("BOT_TOKEN""5645657358:AAGVpJA10xLz39WeNarS08hguIqEJmf0mZE")
+BOT_TOKEN = getenv("BOT_TOKEN" "5645657358:AAGVpJA10xLz39WeNarS08hguIqEJmf0mZE")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI",  "mongodb+srv://cluster0.wq5j5vb.mongodb.net/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509")
+MONGO_DB_URI = getenv(
+    "MONGO_DB_URI",
+    "mongodb+srv://cluster0.wq5j5vb.mongodb.net/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509",
+)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
@@ -86,7 +89,10 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQChJ8QAZoNCA6OoAXydqcJp4gOu_uuJwDwvV8aEmjyGVLaQS-eE5rlhcRHTZh8MeGXY1F0w4ZIye1wMdj0TCeuwFZjV6CCK82JQ3yRxKl-t8_eURVkl6YOED3dYB_VrlhmizfOPhGYVS4FkuGGxYifTcGy1Tl08BjDmW7oOK70wW2kqMmBuUke_--7EypkNPOdkleH_6vUETvtC_eAgs0wrt-Ek6Qv4cSvyYu8R4RkdHBcWCEzlkElWHaeYFx6dWfJ3YKqfACorVCSTKOifiPcOw-UhqWo8wGwl4CSMSqEzR3KZXTjKHrjvvdvbLDwjz_Idl7IXywzY5yJVCRLgxs7tFw3xwwAAAAAz8ed3AA")
+STRING1 = getenv(
+    "STRING_SESSION",
+    "BQChJ8QAZoNCA6OoAXydqcJp4gOu_uuJwDwvV8aEmjyGVLaQS-eE5rlhcRHTZh8MeGXY1F0w4ZIye1wMdj0TCeuwFZjV6CCK82JQ3yRxKl-t8_eURVkl6YOED3dYB_VrlhmizfOPhGYVS4FkuGGxYifTcGy1Tl08BjDmW7oOK70wW2kqMmBuUke_--7EypkNPOdkleH_6vUETvtC_eAgs0wrt-Ek6Qv4cSvyYu8R4RkdHBcWCEzlkElWHaeYFx6dWfJ3YKqfACorVCSTKOifiPcOw-UhqWo8wGwl4CSMSqEzR3KZXTjKHrjvvdvbLDwjz_Idl7IXywzY5yJVCRLgxs7tFw3xwwAAAAAz8ed3AA",
+)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
